@@ -1,0 +1,15 @@
+K. Here we are.
+
+So... what now?
+
+To do:
+
+/dash:
+Need to read all current events from the server.
+
+/create:
+Need to be able to create a new Event and write it to the server.
+
+
+server:
+events will be stored here, in a db.

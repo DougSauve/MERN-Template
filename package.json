@@ -1,0 +1,38 @@
+{
+  "name": "insert name here",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.prod.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack --config webpack.dev.js --mode development && node server/server.js"
+  },
+  "author": "Doug Sauve",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.44",
+    "@babel/preset-env": "^7.0.0-beta.44",
+    "@babel/preset-react": "^7.0.0-beta.44",
+    "babel-loader": "^8.0.0-beta.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^0.28.11",
+    "express": "^4.16.2",
+    "moment": "^2.22.1",
+    "mongoose": "^5.0.14",
+    "node-sass": "^4.8.3",
+    "normalize.css": "^8.0.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "sass-loader": "^6.0.7",
+    "socket.io": "^2.1.0",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-merge": "^4.1.2"
+  }
+}
